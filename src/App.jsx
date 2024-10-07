@@ -15,6 +15,7 @@ function App() {
     axios.get("https://viacep.com.br/ws/01001000/json/").then((response) => {
       const data = response.data
 
+    
       console.log(data)
     })
   }, [])
@@ -30,15 +31,15 @@ function App() {
 
         <div className="boxinfo">
           <div>
-            <h2>estado</h2>
+            <h2>estado:</h2>
             <p>bairro</p>
           </div>
           <div>
-            <h2>bairro</h2>
+            <h2>bairro:</h2>
             <p>bairro</p>
           </div>
           <div>
-            <h2>rua</h2>
+            <h2>rua:</h2>
             <p>bairro</p>
           </div>
         </div>

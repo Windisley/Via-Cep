@@ -1,0 +1,128 @@
+.container{
+  width: 100%;
+  min-height: 100dvh;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.container .boxviacep{
+  width: 90%;
+  max-width: 500px;
+  min-height: 300px;
+  padding: 1rem;
+  border: 1px solid var(--secundary-color);
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+ 
+}
+
+.container .boxviacep h1{
+ font-size: 1rem;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+
+.container .boxviacep .boxinput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+}
+
+.container .boxviacep .boxinput input{
+  border: 1px solid var(--secundary-color);
+  background-color: var(--secundary-color);
+  color: var(--primary-color);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 250px;
+  padding: 6px 21px;
+  text-align: left;
+
+}
+
+.container .boxviacep .boxinput input::placeholder{
+  color: var(--background);
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+.container .boxviacep .boxinput button{
+  border: 1px solid var(--secundary-color);
+  background-color: var(--secundary-color);
+  color: var(--primary-color);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 100px;
+  padding: 6px 21px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+.container .boxviacep .boxinput button:hover{
+  background-color: rgb(5, 0, 13, .8);
+  color: var(--background);
+}
+
+.container .boxviacep .boxinfo{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.container .boxviacep .boxinfo div{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 1rem;
+}
+
+.container .boxviacep .boxinfo div h2{
+  width: 100%;
+  margin: 0 auto;
+  text-align: start;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  user-select: none;
+} 
+
+.container .boxviacep .boxinfo div p{
+  width: 100%;
+  margin: 0 auto;
+  text-align: start;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: .8rem;
+  font-weight: 500;
+  font-style: italic;
+} 
+
+
+
+
+
+
+
+
+
+
