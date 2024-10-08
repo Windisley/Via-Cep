@@ -36,9 +36,6 @@ function App() {
    
   }
   
-         
-
-  
 
   return (
     <div className="container">
@@ -57,7 +54,9 @@ function App() {
             ) : err ? (
               <p>{err}</p>
             ) : (
-              <p>{viacep ? viacep.estado : "N/A"}</p>
+             
+                <p>{viacep ? viacep.estado : "N/A"}</p>
+             
             )}
  
           </div>
@@ -69,7 +68,9 @@ function App() {
             ) : err ? (
               <p>{err}</p>
             ) : (
-              <p>{viacep ? viacep.localidade : "N/A"}</p>
+        
+                <p>{viacep ? viacep.localidade : "N/A"}</p>
+             
             )}
  
           </div>
@@ -81,7 +82,7 @@ function App() {
             ) : err ? (
               <p>{err}</p>
             ) : (
-              <p>{viacep ? viacep.logradouro : "N/A"}</p>
+                <p>{viacep ? viacep.logradouro : "N/A"}</p>
             )}
  
           </div>
