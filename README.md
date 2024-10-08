@@ -2,7 +2,7 @@
 
 ![page](https://github.com/user-attachments/assets/46bfe238-9dfd-40a9-b660-19b55bbe90b0)
 
-### Descrição da Página A página é um aplicativo web projetado para facilitar a busca de informações de endereço a partir de um CEP (Código de Endereçamento Postal) brasileiro. O usuário pode inserir um CEP e obter rapidamente detalhes como estado, cidade (localidade) e rua correspondente a esse código. A aplicação é útil para pessoas que precisam verificar endereços, como em situações de entrega, cadastro ou simplesmente para conhecer melhor uma localidade. 
+### A página é um aplicativo web projetado para facilitar a busca de informações de endereço a partir de um CEP (Código de Endereçamento Postal) brasileiro. O usuário pode inserir um CEP e obter rapidamente detalhes como estado, cidade (localidade) e rua correspondente a esse código. A aplicação é útil para pessoas que precisam verificar endereços, como em situações de entrega, cadastro ou simplesmente para conhecer melhor uma localidade. 
 
 ### Tecnologias Usadas 1. React: Uma biblioteca JavaScript utilizada para construir a interface da aplicação, permitindo a criação de componentes reutilizáveis ​​e uma experiência de usuário responsiva. 
 ### 2. Axios: biblioteca JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É amplamente utilizado em aplicações web, especialmente construídos com frameworks como React, Vue e Angular.
